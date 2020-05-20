@@ -1,2 +1,13 @@
-# fibonaccinumber
-program for fibonaccinumber
+# Program to get fibonaccinumber
+n=int(input ("Enter the value:"))
+a=0
+b=1
+sum=0
+count=1
+print("Fibonacci numbers: ",end=" ")
+while(count<=n):
+print(sum,end=" ")
+count+=1
+a=b
+b=sum
+sum=a+b
